@@ -51,23 +51,23 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
 
   language_model_settings: false,
 
-  openai_api_key: true,
-  openai_proxy_url: true,
+  openai_api_key: false,
+  openai_proxy_url: false,
 
   create_session: true,
   edit_agent: true,
 
   plugins: false,
-  dalle: true,
+  dalle: false,
 
-  check_updates: true,
+  check_updates: false,
   welcome_suggest: true,
   token_counter: true,
 
   knowledge_base: true,
   rag_eval: false,
 
-  clerk_sign_up: true,
+  clerk_sign_up: false,
 
   cloud_promotion: false,
 
@@ -78,8 +78,8 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
   // the flags below can only be used with commercial license
   // if you want to use it in the commercial usage
   // please contact us for more information: hello@lobehub.com
-  commercial_hide_github: false,
-  commercial_hide_docs: false,
+  commercial_hide_github: true,
+  commercial_hide_docs: true,
 };
 
 export const mapFeatureFlagsEnvToState = (config: IFeatureFlags) => {
