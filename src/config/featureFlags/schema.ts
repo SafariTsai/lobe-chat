@@ -61,7 +61,7 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
   dalle: false,
 
   check_updates: false,
-  welcome_suggest: true,
+  welcome_suggest: false,
   token_counter: true,
 
   knowledge_base: true,
@@ -72,7 +72,7 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
   cloud_promotion: false,
 
   market: true,
-  speech_to_text: true,
+  speech_to_text: false,
   changelog: false,
 
   // the flags below can only be used with commercial license
