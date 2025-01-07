@@ -49,7 +49,7 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
   webrtc_sync: false,
   pin_list: false,
 
-  language_model_settings: true,
+  language_model_settings: false,
 
   openai_api_key: true,
   openai_proxy_url: true,
@@ -57,7 +57,7 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
   create_session: true,
   edit_agent: true,
 
-  plugins: true,
+  plugins: false,
   dalle: true,
 
   check_updates: true,
@@ -73,7 +73,7 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
 
   market: true,
   speech_to_text: true,
-  changelog: true,
+  changelog: false,
 
   // the flags below can only be used with commercial license
   // if you want to use it in the commercial usage
