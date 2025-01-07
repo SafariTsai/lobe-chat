@@ -61,7 +61,7 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
   dalle: false,
 
   check_updates: false,
-  welcome_suggest: false,
+  welcome_suggest: true,
   token_counter: true,
 
   knowledge_base: true,
@@ -71,7 +71,7 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
 
   cloud_promotion: false,
 
-  market: true,
+  market: false,
   speech_to_text: false,
   changelog: false,
 
