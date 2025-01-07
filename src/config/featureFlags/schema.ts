@@ -67,7 +67,7 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
   knowledge_base: true,
   rag_eval: false,
 
-  clerk_sign_up: false,
+  clerk_sign_up: true,
 
   cloud_promotion: false,
 
