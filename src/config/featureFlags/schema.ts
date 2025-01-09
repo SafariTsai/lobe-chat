@@ -72,7 +72,7 @@ export const DEFAULT_FEATURE_FLAGS: IFeatureFlags = {
   cloud_promotion: false,
 
   market: true,
-  speech_to_text: false,
+  speech_to_text: true,
   changelog: false,
 
   // the flags below can only be used with commercial license
